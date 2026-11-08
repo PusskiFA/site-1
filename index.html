@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f2eb">
+  <meta name="description" content="КРОШКА — кофе, свежая выпечка и маленькие радости. Авторский концепт городской кофейни для портфолио.">
+  <meta property="og:title" content="КРОШКА — маленькая большая радость">
+  <meta property="og:description" content="Хороший кофе. Тёплая выпечка. Время для себя. Загляните в нашу кофейню.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://kroshka-coffee-studio.alikekookaburra1.chatgpt.site">
+  <meta property="og:image" content="https://kroshka-coffee-studio.alikekookaburra1.chatgpt.site/images/latte.jpg">
+  <title>КРОШКА — маленькая большая радость</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="/fonts/manrope-cyrillic.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти к содержимому</a>
+  <svg class="svg-defs" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><defs>
+    <symbol id="flower" viewBox="0 0 100 100"><path d="M50 23C29-8 5 17 24 39-12 33-5 69 25 64 5 92 38 108 50 78 64 108 96 91 76 64 111 69 111 32 76 39 94 13 65-7 50 23Z" fill="currentColor"/><circle cx="50" cy="51" r="10" fill="var(--cream)"/></symbol>
+    <symbol id="arrow" viewBox="0 0 24 24"><path d="M5 19 19 5M5 5h14v14" fill="none" stroke="currentColor" stroke-width="1.6"/></symbol>
+  </defs></svg>
+  <header class="header">
+    <a href="#" class="logo" aria-label="Крошка — на главную"><svg aria-hidden="true"><use href="#flower"/></svg>крошка<span>.</span></a>
+    <nav class="nav" id="navigation" aria-label="Главная навигация">
+      <a href="#menu">Наше меню</a><a href="#story">О крошке</a><a href="#visit">Зайти в гости <span class="nav-dot"></span></a>
+    </nav>
+    <button class="button button-dark header-quiz" data-open-quiz>Найти свой кофе <svg aria-hidden="true"><use href="#arrow"/></svg></button>
+    <button class="nav-toggle" aria-label="Открыть меню" aria-controls="navigation" aria-expanded="false"><span></span><span></span></button>
+  </header>
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="red-dot"></span> КОФЕ. ВЫПЕЧКА. МАЛЕНЬКИЕ РАДОСТИ.</p>
+        <h1 id="hero-heading">Маленькая<br>большая<br><span class="hero-joy">радость<svg viewBox="0 0 480 25" aria-hidden="true"><path d="M4 17C110 2 321 1 473 12M50 23C202 10 351 13 429 17"/></svg></span><span class="red-period">.</span></h1>
+        <p class="hero-description">Тот самый кофе. Ещё тёплый круассан.<br>И немного времени только для себя.</p>
+        <div class="hero-actions"><a class="button button-red" href="#menu">Что будем пить? <svg aria-hidden="true"><use href="#arrow"/></svg></a><span class="handwritten">начнём с хорошего</span></div>
+        <a class="scroll-note" href="#menu"><span>↓</span> ЛИСТАЙТЕ НЕ СПЕША</a>
+      </div>
+      <div class="hero-visual">
+        <img class="hero-image" src="/images/latte.jpg" alt="Бариста наливает молоко в чашку свежего кофе" fetchpriority="high" width="1800" height="1007">
+        <div class="photo-topline"><span>С ЛЮБОВЬЮ К КАЖДОЙ ЧАШКЕ</span><button class="hero-next" id="hero-next" aria-label="Следующая фотография кофейни">01 / 03 ↗</button></div>
+        <div class="hero-stamp" aria-label="Счастье в простых вещах"><svg aria-hidden="true" class="stamp-flower"><use href="#flower"/></svg><span>счастье<br>в простых<br>вещах</span><svg class="stamp-smile" viewBox="0 0 60 32" aria-hidden="true"><path d="M8 7c8 24 36 24 44 0M19 3v4M40 3v4" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg></div>
+        <div class="photo-caption"><span class="photo-location"><span class="red-dot"></span> ВАШЕ НОВОЕ «МНЕ КАК ОБЫЧНО»</span><a href="#story" aria-label="Узнать о кофейне"><svg aria-hidden="true"><use href="#arrow"/></svg></a></div>
+      </div>
+    </section>
+    <div class="ticker" aria-label="Свежий кофе, тёплая выпечка, хорошие люди"><div class="ticker-track" aria-hidden="true"><span>СВЕЖИЙ КОФЕ</span><svg><use href="#flower"/></svg><span>ТЁПЛАЯ ВЫПЕЧКА</span><svg><use href="#flower"/></svg><span>ХОРОШИЕ ЛЮДИ</span><svg><use href="#flower"/></svg><span>МАЛЕНЬКИЕ РАДОСТИ</span><svg><use href="#flower"/></svg><span>СВЕЖИЙ КОФЕ</span><svg><use href="#flower"/></svg><span>ТЁПЛАЯ ВЫПЕЧКА</span><svg><use href="#flower"/></svg><span>ХОРОШИЕ ЛЮДИ</span><svg><use href="#flower"/></svg><span>МАЛЕНЬКИЕ РАДОСТИ</span><svg><use href="#flower"/></svg></div><button class="ticker-toggle" id="ticker-toggle" aria-label="Приостановить бегущую строку" aria-pressed="false">Ⅱ</button></div>
+    <section class="menu-section section-space" id="menu" aria-labelledby="menu-heading">
+      <div class="section-heading reveal"><div><p class="eyebrow">01 — НАШЕ МЕНЮ</p><h2 id="menu-heading">А вам <span class="serif-word">как обычно?</span></h2></div><p class="section-intro">Любимая классика и кое-что новое.<br>Для любого настроения.</p></div>
+      <div class="menu-toolbar"><div class="menu-tabs" role="tablist" aria-label="Категории меню"><button id="tab-coffee" role="tab" aria-selected="true" aria-controls="menu-panel" tabindex="0" data-category="coffee">Кофе <span>04</span></button><button id="tab-special" role="tab" aria-selected="false" aria-controls="menu-panel" tabindex="-1" data-category="special">Кое-что особенное <span>03</span></button><button id="tab-bakery" role="tab" aria-selected="false" aria-controls="menu-panel" tabindex="-1" data-category="bakery">К кофе <span>03</span></button></div><span class="menu-note">СОБРАНО С ЛЮБОВЬЮ ↙</span></div>
+      <div id="menu-panel" role="tabpanel" aria-labelledby="tab-coffee"><div class="product-grid" id="product-grid"></div></div>
+      <noscript><p>Капучино — 260 ₽ · Флэт уайт — 290 ₽ · Латте — 290 ₽ · Фильтр-кофе — 220 ₽. Для интерактивного меню включите JavaScript.</p></noscript>
+      <div class="menu-foot"><p>Любой молочный кофе приготовим на растительном молоке <span>+ 60 ₽</span></p><button class="text-button" data-open-quiz>Не можете выбрать? Поможем <svg aria-hidden="true"><use href="#arrow"/></svg></button></div>
+    </section>
+    <section class="story-section" id="story" aria-labelledby="story-heading">
+      <div class="story-photo"><img src="/images/cafe.jpg" alt="Уютный интерьер кофейни с деревянными столами и тёплым светом" loading="lazy" width="1200" height="800"><div class="photo-label">МЕСТО ДЛЯ ВАШИХ МАЛЕНЬКИХ РИТУАЛОВ</div><span class="story-photo-note">Оставайтесь<br>ещё на чашечку ♡</span></div>
+      <div class="story-copy reveal"><p class="eyebrow">02 — ЧУТЬ БОЛЬШЕ О НАС</p><h2 id="story-heading">Большая любовь<br>к <span class="serif-word">маленьким</span><br>вещам.</h2><p>Мы придумали «Крошку» для тех моментов, когда хочется чуть замедлиться. Почувствовать аромат свежего кофе. Отломить хрустящий уголок круассана. Улыбнуться без причины.</p><p>У нас всё просто: хорошее зерно, честные вкусы и люди, которые помнят ваш любимый напиток.</p><div class="story-signature"><svg aria-hidden="true"><use href="#flower"/></svg><span>До встречи за вашим столиком,<br><strong>команда крошки</strong></span></div></div>
+    </section>
+    <section class="ritual-section section-space" aria-labelledby="ritual-heading"><p class="eyebrow reveal">ВАШ ДЕНЬ. ВАШ МАЛЕНЬКИЙ РИТУАЛ.</p><h2 id="ritual-heading" class="reveal">У каждого настроения —<br>свой <span class="serif-word">вкус.</span></h2><div class="ritual-bottom reveal"><p>Утро на бегу или выходной без планов?<br>Подберём чашку, которая попадёт в настроение.</p><button class="button button-dark" data-open-quiz>Найти свой кофе <svg aria-hidden="true"><use href="#arrow"/></svg></button></div><svg class="ritual-flower" aria-hidden="true"><use href="#flower"/></svg></section>
+    <section class="visit-section section-space" id="visit" aria-labelledby="visit-heading">
+      <div class="visit-copy reveal"><p class="eyebrow">03 — ПЛАНЫ НА СЕГОДНЯ</p><h2 id="visit-heading">Просто<br><span class="serif-word">заходите.</span></h2><p class="visit-description">За кофе, за разговорами,<br>за пятью минутами без спешки.</p><div class="visit-details"><div><span class="small-label">ВРЕМЯ ДЛЯ КРОШКИ</span><p>Будни <strong>08:00 — 21:00</strong><br>Выходные <strong>09:00 — 22:00</strong></p></div><div><span class="small-label">ЧТО ВАС ЖДЁТ</span><p>Кофе с собой и в любимой чашке.<br>Столик у окна. Всегда рады собакам.</p></div></div><div class="concept-note"><span class="red-dot"></span><p>«Крошка» — вымышленная кофейня.<br>Дизайн-концепт для портфолио.</p></div></div>
+      <div class="visit-visual"><img src="/images/coffee.jpg" alt="Чашки кофе с латте-артом на деревянном столе среди растений" loading="lazy" width="1800" height="2700"><div class="visit-card"><svg aria-hidden="true"><use href="#flower"/></svg><span>ХОРОШО ТАМ,<br>ГДЕ ВАШ КОФЕ.</span><p>И вы, конечно.</p></div></div>
+    </section>
+  </main>
+  <footer class="footer"><div class="footer-top"><p>Увидимся за чашкой.</p><a href="#" aria-label="Вернуться наверх">Наверх <span>↑</span></a></div><a class="footer-wordmark" href="#" aria-label="Крошка — на главную">крошка<span>.<svg aria-hidden="true"><use href="#flower"/></svg></span></a><div class="footer-bottom"><span>© КРОШКА, 2026</span><span>КОФЕЙНЯ, ПРИДУМАННАЯ С ЛЮБОВЬЮ</span><span>ПРОЕКТ ДЛЯ ПОРТФОЛИО ↗</span></div></footer>
+  <dialog class="quiz-dialog" id="coffee-quiz" aria-labelledby="quiz-title"><button class="dialog-close" data-close-dialog aria-label="Закрыть подбор кофе">×</button><div id="quiz-content"></div></dialog>
+  <dialog class="detail-dialog" id="product-dialog" aria-labelledby="product-title"><button class="dialog-close" data-close-dialog aria-label="Закрыть описание">×</button><div id="product-content"></div></dialog>
+</body>
+</html>

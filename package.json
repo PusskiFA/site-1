@@ -1,0 +1,1 @@
+{"name":"kroshka-coffee","private":true,"version":"1.0.0","description":"Russian coffee shop portfolio concept","scripts":{"build":"node build.mjs","check":"node --check app.js && node --check build.mjs"}}
